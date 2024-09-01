@@ -2,10 +2,10 @@
 A python written game that uses the output to control the game. Feel free to copyNpaste or modify it as you wish!
 Copy the code below or download the .py file attached:
 
+
 #code start
 import random
 lucky_numbs =[45, 46, 47, 48, 49, 51, 52, 53, 54, 55]
-
 truue = True
 
 def menu():
