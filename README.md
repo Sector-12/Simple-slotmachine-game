@@ -5,18 +5,16 @@ Copy the code below or download the .py file attached:
 
 #code start
 import random
-lucky_numbs =[45, 46, 47, 48, 49, 51, 52, 53, 54, 55]
-truue = True
+lucky_numbs =[45, 46, 47, 48, 49, 51, 52, 53, 54, 55][Uploading simple_python_game1.py…]()
 
+truue = True
 def menu():
   money = 0
   my_money = 0
   chance = 10
   sus = 1
   while truue == True:
-
     choice = int(input("What do you want to do?\n1: play one time\n2: go to shop\n3: withdraw money\n4: check your stats\n11: play multiple times\n"))
-
     if choice == 1:
       sus = 1
       price = random.randint(sus, 150)
@@ -59,7 +57,6 @@ def menu():
         print(f"You don't have enough money on your account! Current balance:\n {my_money}\n")
       elif buy == 3:
         print(f"Exiting the shop..done")
-
     elif choice == 3:
       print(f"Your withdrawable money: {money}\nYour bank account: {my_money}\n")
       w_choice = input(f"Do you want to withdraw ${money} to your bank account? y/n:\n")
@@ -76,4 +73,4 @@ def menu():
       print(f"Machines money/withdrawable money: ${money}\nYour money on your bank account: ${my_money}\nYour Current chance for a jackpot: {chance}%\nSmallest price at a jackpot: ${sus}\n")
     else:
       print(f"Not an valid input..")
-menu()
+menu()#executing
